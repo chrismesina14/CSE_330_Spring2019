@@ -1,0 +1,17 @@
+Script started on 2019-05-15 23:10:57-07:00
+]0;005319687@csusb.edu@jb359-1:~/cse330/lab5[005319687@csusb.edu@jb359-1 lab5]$ ./Lis[K[K[K[K[Kg++ -o List [K1 List_test1.cpp List[K[K[K[K[K
+]0;005319687@csusb.edu@jb359-1:~/cse330/lab5[005319687@csusb.edu@jb359-1 lab5]$ ./Ls[Kist1
+SUCCESS
+]0;005319687@csusb.edu@jb359-1:~/cse330/lab5[005319687@csusb.edu@jb359-1 lab5]$ g++ - [Ko List2 List_test2.cpp
+]0;005319687@csusb.edu@jb359-1:~/cse330/lab5[005319687@csusb.edu@jb359-1 lab5]$ ./List2
+44 33 11 22 
+-----------
+44 33 11 
+-----------
+33 11 
+-----------
+
+]0;005319687@csusb.edu@jb359-1:~/cse330/lab5[005319687@csusb.edu@jb359-1 lab5]$ exit
+exit
+
+Script done on 2019-05-15 23:11:44-07:00

@@ -1,0 +1,12 @@
+Script started on 2019-06-03 15:29:52-07:00
+]777;notify;Command completed;exit]0;005319687@csusb.edu@jb359-4:~/cse330/lab6]7;file://jb359-4.cse.csusb.edu/home/csusb.edu/005319687/cse330/lab6[005319687@csusb.edu@jb359-4 lab6]$ g++ -o Queue Queue_test.cpp ../lab2[K3/String.o
+]777;notify;Command completed;g++ -o Queue Queue_test.cpp ../lab3/String.o]0;005319687@csusb.edu@jb359-4:~/cse330/lab6]7;file://jb359-4.cse.csusb.edu/home/csusb.edu/005319687/cse330/lab6[005319687@csusb.edu@jb359-4 lab6]$ ./Queue
+Front = 2
+Front after Pop = 4
+Back = 6
+
+String Test = SUCCESS
+]777;notify;Command completed;./Queue]0;005319687@csusb.edu@jb359-4:~/cse330/lab6]7;file://jb359-4.cse.csusb.edu/home/csusb.edu/005319687/cse330/lab6[005319687@csusb.edu@jb359-4 lab6]$ exit
+exit
+
+Script done on 2019-06-03 15:30:17-07:00

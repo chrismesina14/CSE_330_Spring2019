@@ -1,0 +1,190 @@
+/*******************************************************************************************
+ * Christian Mesina
+ * String.cpp
+ * May 4, 2019
+ * This .cpp file includes the two substring functions and the rest are from lab 3 (Strings)
+********************************************************************************************/
+
+#include <cassert>
+#include "String.h"
+
+// default constructor
+String::String()
+{
+    size = 0;
+    buffer = nullptr;
+}
+
+// copy constructor
+String::String(const String & source)
+{
+    size = source.size;
+    buffer = new char[size];
+    assert(buffer != nullptr);
+
+    for (int i = 0; i < size; i++)
+        buffer[i] = source.buffer[i];
+}
+
+// move constructor
+String::String(String && source): size{source.size}, buffer{source.buffer}
+{
+    source.size = 0;
+    source.buffer = nullptr;
+}
+
+// constructor from "char string" to String
+// find size of p, allocate space, assign p to buffer
+String::String(const char * p)
+{
+    size = 0;
+    for (const char *q = p; *q; q++)
+        size++;
+    buffer = new char[size];
+    assert(buffer != nullptr);
+
+    for (int i = 0; i < size; i++)
+        buffer[i] = p[i];
+}
+
+String::~String()
+{
+    delete [] buffer;
+}
+
+// copy assignment
+// similar to char string constructor, but here
+// create a temp buffer based on source,
+// delete existing buffer, then assign temp buffer to buffer
+String & String::operator=(const String & source)
+{
+    char * temp = new char[source.size];
+    assert(temp != nullptr);
+    
+    for (int i = 0; i < source.size; i++)
+        temp[i] = source.buffer[i];
+
+    delete [] buffer;
+    buffer = temp;
+    size = source.size;
+
+    return *this;
+}
+
+// Substring function with two parameters: position and length
+String String::substr(int pos, int len)
+{
+    char * temp = new char[len];
+    assert(temp != nullptr);
+    
+    int s = 0;
+    String str = temp;
+    str.size = len;
+
+    for(int i = pos; i < (pos + len); i++, s++)
+        temp[s] += buffer[i];
+    
+    return temp;
+}
+// Substring function with one parameter: position
+String String::substr(int pos)
+{
+  char * temp = new char[size];
+  assert(temp !=  nullptr);
+
+  int s = 0;
+  String str = temp;
+  str.size = size - pos;
+
+  for(int i = pos; i < size; i++, s++)
+      temp[s] += buffer[i];
+
+  return temp;
+}
+
+// Determines the size or length of a String
+int String::length()
+{
+    int i;
+    for(i = 0; i < size; i++);
+    return i;
+}
+
+// Creates a char String operator
+char & String::operator[](const int x)
+{
+    return buffer[x];
+}
+
+// move assignment
+String & String::operator=(String && source)
+{
+    size = source.size;
+    source.size = 0;
+    delete [] buffer;
+    buffer = source.buffer;
+    source.buffer = nullptr;
+    return *this;
+/* alternate implementation
+    swap(size, source.size);
+    swap(buffer, source.buffer);
+    return *this;
+*/
+}
+
+// Creates a += boolean operator function for Strings
+String & String::operator+=(const String & source)
+{
+    int s = source.size;
+    int new_size = size + s;
+    char * temp = new char[new_size];
+    assert(temp != nullptr);
+
+    for(int i = 0; i < size; i++)
+        temp[i] = buffer[i];
+    for(int i = size, j = 0; j < s; i++, j++)
+        temp[i] += source.buffer[j];
+
+    delete [] buffer;
+    buffer = temp;
+    size = new_size;
+    return *this;
+}
+
+bool operator==(const String & left, const String & right)
+{
+    if (left.size != right.size)
+        return false;
+
+    for (int i = 0; i < left.size; i++)
+        if (left.buffer[i] != right.buffer[i])
+            return false;
+    return true;
+}
+
+// Creates a <= boolean operator function for Strings
+bool operator<=(const String & left, const String & right)
+{
+  if(left.size <= right.size)
+  {
+    for (int i = 0; i < left.size; i++)
+        if (left.buffer[i] != right.buffer[i])
+          if(left.buffer[i] > right.buffer[i])
+            return false;
+  }
+  else
+  {
+    for (int i = 0; i < right.size; i++)
+        if (left.buffer[i] != right.buffer[i])
+          if(left.buffer[i] > right.buffer[i])
+            return false;
+  }
+  return true;
+}
+
+ostream & operator<<(ostream & out, const String & s)
+{
+    for (int i = 0; i < s.size; i++)
+        out << s.buffer[i];
+    return out;
+}

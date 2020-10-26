@@ -1,0 +1,14 @@
+Script started on 2019-06-05 13:46:12-07:00
+]777;notify;Command completed;exit]0;005319687@csusb.edu@jb358-32:~/cse330/hw4]7;file://jb358-32.cse.csusb.edu/home/csusb.edu/005319687/cse330/hw4[005319687@csusb.edu@jb358-32 hw4]$ g++ -o hw4 hw4.cpp
+]777;notify;Command completed;g++ -o hw4 hw4.cpp]0;005319687@csusb.edu@jb358-32:~/cse330/hw4]7;file://jb358-32.cse.csusb.edu/home/csusb.edu/005319687/cse330/hw4[005319687@csusb.edu@jb358-32 hw4]$ ./hw4
+Enter the filename: 
+test1.txt
+test1.txt is Balanced
+]777;notify;Command completed;./hw4]0;005319687@csusb.edu@jb358-32:~/cse330/hw4]7;file://jb358-32.cse.csusb.edu/home/csusb.edu/005319687/cse330/hw4[005319687@csusb.edu@jb358-32 hw4]$ ./hw4
+Enter the filename: 
+test2.txt
+test2.txt is Not Balanced
+]777;notify;Command completed;./hw4]0;005319687@csusb.edu@jb358-32:~/cse330/hw4]7;file://jb358-32.cse.csusb.edu/home/csusb.edu/005319687/cse330/hw4[005319687@csusb.edu@jb358-32 hw4]$ exit
+exit
+
+Script done on 2019-06-05 13:47:37-07:00

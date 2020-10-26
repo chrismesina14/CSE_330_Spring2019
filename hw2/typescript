@@ -1,0 +1,18 @@
+Script started on 2019-05-06 15:10:51-07:00
+]0;005319687@csusb.edu@jb359-1:~/cse330/hw2[005319687@csusb.edu@jb359-1 hw2]$ ./Substring
+
+String 1 = ABCDEFG, String 2 = Hello World!
+
+Please enter a position and a length for String 1: 
+2
+3
+Substring(2, 3) of String 1 = CDE
+
+-----------------------------------------------------------
+
+Substring(5) of String 2 =  World!
+
+]0;005319687@csusb.edu@jb359-1:~/cse330/hw2[005319687@csusb.edu@jb359-1 hw2]$ exit
+exit
+
+Script done on 2019-05-06 15:11:04-07:00

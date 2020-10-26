@@ -1,0 +1,7 @@
+This is { ( not ) 
+a <balanced> file
+
+neither is this
+< > ] ( ) [ < >
+
+{ ( not balanced } )

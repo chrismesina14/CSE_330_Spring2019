@@ -1,0 +1,49 @@
+Script started on 2019-04-24 01:34:26-07:00
+]0;005319687@csusb.edu@jb359-1:~/cse330/hw1[005319687@csusb.edu@jb359-1 hw1]$ ./s[Khw1
+Enter k: 
+1
+Enter n: 
+1
+
+There are 1 numbers in the array: 
+2
+
+The 1st largest number is 2
+
+]0;005319687@csusb.edu@jb359-1:~/cse330/hw1[005319687@csusb.edu@jb359-1 hw1]$ ./s[Khw1
+Enter k: 
+1
+Enter n: 
+3
+
+There are 3 numbers in the array: 
+27
+16
+2
+
+The 1st largest number is 27
+
+]0;005319687@csusb.edu@jb359-1:~/cse330/hw1[005319687@csusb.edu@jb359-1 hw1]$ ./hw1
+Enter k: 
+3
+Enter n: 
+10
+
+There are 10 numbers in the array: 
+27
+25
+24
+18
+16
+14
+11
+7
+3
+2
+
+The 3rd largest number is 24
+
+]0;005319687@csusb.edu@jb359-1:~/cse330/hw1[005319687@csusb.edu@jb359-1 hw1]$ ext[Kit
+exit
+
+Script done on 2019-04-24 01:35:25-07:00

@@ -1,0 +1,16 @@
+Script started on 2019-04-29 14:48:42-07:00
+]0;005319687@csusb.edu@jb359-1:~/cse330/lab3[005319687@csusb.edu@jb359-1 lab3]$ g++ -c String.cpp
+]0;005319687@csusb.edu@jb359-1:~/cse330/lab3[005319687@csusb.edu@jb359-1 lab3]$ g++ -c String_test1.cpp
+]0;005319687@csusb.edu@jb359-1:~/cse330/lab3[005319687@csusb.edu@jb359-1 lab3]$ g++ -o [K[K[KString.cpp [K[K[K[Ko String_test1.o
+]0;005319687@csusb.edu@jb359-1:~/cse330/lab3[005319687@csusb.edu@jb359-1 lab3]$ ./a.out
+SUCCESS
+]0;005319687@csusb.edu@jb359-1:~/cse330/lab3[005319687@csusb.edu@jb359-1 lab3]$ g++ - [Kc String_test2.cpp
+]0;005319687@csusb.edu@jb359-1:~/cse330/lab3[005319687@csusb.edu@jb359-1 lab3]$ S[Kg++ String.o String_test2.o
+]0;005319687@csusb.edu@jb359-1:~/cse330/lab3[005319687@csusb.edu@jb359-1 lab3]$ ./a.out
+abcd < abe
+s1 = abe s2 = 
+s1 =  s3 = abe
+]0;005319687@csusb.edu@jb359-1:~/cse330/lab3[005319687@csusb.edu@jb359-1 lab3]$ exit
+exit
+
+Script done on 2019-04-29 14:49:54-07:00

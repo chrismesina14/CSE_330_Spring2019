@@ -1,0 +1,15 @@
+[()]{([])<>}
+
+This is <((a))> {test} file
+and [your] program should
+[({o}ut)p{u}[t] ]<!>[] Balanced
+
+#include <iostream>
+using namespace std;
+main()
+{
+    int a[100];
+    a[20] = ((13 / 2) + a[5]) / 2;
+    cout << a[20];
+    cin >> a[20];
+}

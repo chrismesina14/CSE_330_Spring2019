@@ -1,0 +1,29 @@
+Script started on 2019-05-05 00:29:19-07:00
+]0;005319687@csusb.edu@jb359-1:~/cse330/lab4[005319687@csusb.edu@jb359-1 lab4]$ ./Vecet[K[Ktor1
+
+default constructor
+v0: 10 20 
+
+copy constructor v1(v0)
+v0: 10 20 
+v1: 10 20 
+
+move constructor v2(v1)
+v1: 
+v2: 10 20 
+
+copy assignment v1 = v2
+v1: 10 20 
+v2: 10 20 
+
+v3: 100 200 300 
+
+move assignment v2 = v3
+v2: 100 200 300 
+v3: 
+]0;005319687@csusb.edu@jb359-1:~/cse330/lab4[005319687@csusb.edu@jb359-1 lab4]$ ,.[K[K./Vector2
+SUCCESS
+]0;005319687@csusb.edu@jb359-1:~/cse330/lab4[005319687@csusb.edu@jb359-1 lab4]$ exit
+exit
+
+Script done on 2019-05-05 00:29:41-07:00

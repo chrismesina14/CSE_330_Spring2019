@@ -1,0 +1,21 @@
+Script started on 2019-04-12 21:51:16-07:00
+]0;005319687@csusb.edu@jb359-1:~/cse330/lab1[005319687@csusb.edu@jb359-1 lab1]$ exitcat sum.vhello.vd HelloProjectls[Kcd lab2CSE310[4P..lear[1Parvi stack.cpp[8Pclareard ..CSE310[2Plab2ls[Kcd HelloProject[4Pat hello.v[2Psum.v[5Pexit[Kexitcat sum.vhello.vd HelloProjectls[Kcd lab2CSE310[4P..lear[1Parvi stack.cpp[7Pclear./stackg++ -o stack stack.cppclear[Kg++ -o stack stack.cpp./stack[K
+Enter an expression: 
+a+b*c
+abc*+
+]0;005319687@csusb.edu@jb359-1:~/cse330/lab1[005319687@csusb.edu@jb359-1 lab1]$ ./stack[3Pexit./stack
+Enter an expression: 
+a+b-c
+ab+c-
+]0;005319687@csusb.edu@jb359-1:~/cse330/lab1[005319687@csusb.edu@jb359-1 lab1]$ ./stack[3Pexit./stack
+Enter an expression: 
+(a+2)  /(5-d)
+a2+5d-/
+]0;005319687@csusb.edu@jb359-1:~/cse330/lab1[005319687@csusb.edu@jb359-1 lab1]$ ./stack
+Enter an expression: 
+a+((b-c)*d)/e
+abc-d*e/+
+]0;005319687@csusb.edu@jb359-1:~/cse330/lab1[005319687@csusb.edu@jb359-1 lab1]$ exit
+exit
+
+Script done on 2019-04-12 21:53:01-07:00

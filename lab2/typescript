@@ -1,0 +1,23 @@
+Script started on 2019-04-18 15:46:44-07:00
+]0;005319687@csusb.edu@jb359-1:~/cse330/lab2[005319687@csusb.edu@jb359-1 lab2]$ ./selection
+Enter n: 
+1000
+
+All outputs have been placed into selection.txt
+
+]0;005319687@csusb.edu@jb359-1:~/cse330/lab2[005319687@csusb.edu@jb359-1 lab2]$ ./bubble
+Enter n: 
+1000
+
+All outputs have been placed into bubble.txt
+
+]0;005319687@csusb.edu@jb359-1:~/cse330/lab2[005319687@csusb.edu@jb359-1 lab2]$ ./insertion
+Enter n: 
+1000
+
+All outputs have been placed into insertion.txt
+
+]0;005319687@csusb.edu@jb359-1:~/cse330/lab2[005319687@csusb.edu@jb359-1 lab2]$ exit
+exit
+
+Script done on 2019-04-18 15:47:19-07:00
